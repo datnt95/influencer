@@ -1,0 +1,37 @@
+<mat-sidenav #sidenav  mode="side" class="example-sidenav" opened="true" class="sidebar">
+  <mat-icon class="menu-icon">menu</mat-icon>
+    <mat-nav-list>
+      <mat-list-item  >
+        <mat-icon mat-list-icon>person</mat-icon>
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">About</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item >
+        <mat-icon mat-list-icon>settings</mat-icon>
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Services</h5>
+        </div>
+      </mat-list-item>
+
+      <mat-list-item>
+        <mat-icon mat-list-icon>local_phone</mat-icon>
+        <div fxFlex="10"></div>
+        <div *ngIf="sidenavWidth > 6" class="sidenav-item">
+          <h5 class="lead">Contact</h5>
+        </div>
+      </mat-list-item>
+
+
+
+    </mat-nav-list>
+
+  </mat-sidenav>
+
+  <div class="example-sidenav-content">
+    <!-- <router-outlet></router-outlet> -->
+    <!-- <mat-icon class="sidenav-menu">menu</mat-icon> -->
+</div>

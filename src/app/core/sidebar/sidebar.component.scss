@@ -1,0 +1,14 @@
+.sidebar {
+  position: absolute;
+  left: 0;
+  height: 100vh;
+  max-width: 80px;
+  top:0px;
+  .menu-icon {
+    height: 64px;
+    width: inherit;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+}
